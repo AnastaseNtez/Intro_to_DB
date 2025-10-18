@@ -1,3 +1,7 @@
 -- SQL script to print the full description (CREATE statement) of the 'Books' table.
--- This script prints the full description of the table 'books' without using DESCRIBE or EXPLAIN
-SHOW CREATE books;
+-- This command is used to display the table structure when DESCRIBE or EXPLAIN are disallowed.
+
+-- Ensure the correct database is selected before querying the table.
+USE ALX_BOOK_STORE;
+
+SHOW CREATE TABLE BOOKS;
