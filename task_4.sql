@@ -2,6 +2,6 @@
 -- This command is used to display the table structure when DESCRIBE or EXPLAIN are disallowed.
 
 -- Ensure the correct database is selected before querying the table.
-USE ALX_BOOK_STORE;
+USE alx_book_store;
 
-SHOW CREATE TABLE BOOKS;
+SHOW CREATE TABLE books;
